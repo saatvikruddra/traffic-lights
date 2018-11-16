@@ -1,0 +1,114 @@
+
+.container{
+    width: 120px;
+    height: 300px;
+    background: black;
+    margin-left:10%;
+    margin-top:5%;
+    display: block;
+    padding:10px;
+    border-radius: 5%;
+    border:grey 5px solid;
+    float: left;
+}
+
+.lights-container{
+    margin-left: 15px;
+}
+
+.lights{
+    /* opacity: .1; */
+    margin-top: 5px;
+    height: 90px;
+    width:90px;
+    border-radius: 100%;
+    border:2px solid grey;
+}
+#red{
+  background: red;
+  
+  background-image: radial-gradient(brown, transparent);
+  box-shadow: 
+    0 0 20px #111 inset,
+    0 0 10px red;
+  }
+  #yellow{
+    
+    background: yellow;
+    background-image: radial-gradient(brown, transparent);
+    box-shadow: 
+      0 0 20px #111 inset,
+      0 0 10px red;
+    }
+    #green{
+      
+      background: green;
+      background-image: radial-gradient(brown, transparent);
+      box-shadow: 
+        0 0 20px #111 inset,
+        0 0 10px red;
+      }
+
+/* .lights:nth-child(1),.lights:nth-child(4),.lights:nth-child(7){
+    background: red;
+    background-image: radial-gradient(brown, transparent);
+    animation: 10s red;
+    box-shadow: 
+      0 0 20px #111 inset,
+      0 0 10px red;
+  }
+    
+
+  .lights:nth-child(2),.lights:nth-child(5),.lights:nth-child(8){
+    background: yellow;
+    background-image: radial-gradient(orange, transparent);
+    animation: 5s yellow;
+  box-shadow: 
+    0 0 20px #111 inset,
+    0 0 10px yellow;
+}
+
+  .lights:nth-child(3),.lights:nth-child(6),.lights:nth-child(9)
+  {
+  background: green;
+  background-image: radial-gradient(lime, transparent);
+  box-shadow: 
+    0 0 20px #111 inset,
+    0 0 10px lime;
+  animation: 10s green;
+}
+#red{animation-delay:0s }
+#red1{animation-delay:10s }
+#red2{animation-delay:0s }
+#red3{animation-delay:0s }
+#yellow{animation-delay: 5s}
+#yellow1{animation-delay: 5s}
+#yellow2{animation-delay: 15s}
+#yellow3{animation-delay: 25s}
+#green{animation-delay: 10s}
+#green1{animation-delay: 0s}
+#green2{animation-delay: 60s}
+#green3{animation-delay: 60s }
+
+  @keyframes red{
+    0%{opacity: .1}
+    10%{opacity: 1}
+    90%{opacity: 1}
+      100%{opacity: 1}
+  }
+  
+  
+  @keyframes yellow{
+      0%{opacity: .1}
+      10%{opacity: 1}
+      90%{opacity: 1}
+      100%{opacity: .1}
+    }
+    
+    @keyframes green{
+      0%{opacity: .1}
+      10%{opacity: 1}
+      90%{opacity: 1}
+      100%{opacity: .1}
+    } */
+  
