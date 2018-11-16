@@ -1,4 +1,3 @@
-    
     let red1 = document.getElementById("red")
     let red2 = document.getElementById("red1")
     let red3 = document.getElementById("red2")
@@ -19,6 +18,7 @@
     red2.style.opacity = "1";
     red3.style.opacity = "1";
     red4.style.opacity = "1";
+
 
     ///////////////////////////
     // Dedicted to Red and Green
@@ -79,8 +79,10 @@
         red2.style.opacity="1";
         red3.style.opacity="1";
         red4.style.opacity="1";
- 
+         main();
     }
+
+window.onload = main =()=> {    
   
     //////////////////////////
     // Red and Green Twerking
@@ -130,3 +132,6 @@
 
     let startYellow1b = setTimeout(yellowLight, 55000,yellow1);
     let resetYellow1b = setTimeout(resetYellowLight, 60000,yellow1);
+
+
+}
